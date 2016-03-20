@@ -1,0 +1,80 @@
+body {
+	background-color: #EEEEEE;
+}
+/*navigation*/
+nav {
+	height: 60px;
+	postion: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;/* Approximation due to font substition*/
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+	left: 25px;
+	top: 10px;
+	color: #000000;
+
+}
+nav a span {
+	font-family:'Open Sans', sans-serif;
+	text-align: left;
+}
+/*nav links*/
+nav ul {
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 15px;
+}nav ul li {
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+/*heading*/
+heading {
+	text-align: center;
+	font-size: 15px;
+}
+.aboutme h1 {
+	text-align: center;
+}
+.aboutme {
+	margin-left: 20px;
+	width: 600px;
+	float: left;
+}
+.mywork h2 {
+	text-align: center;
+}
+.mywork {
+	margin-right:10px;
+	width: 600px;
+	float: right;
+}
+.pictures {
+	display: inline-block;
+}
+h3 {
+	text-align: center;
+}
+footer {
+	background-color: #2D2D2D;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+.inputs {
+	float: left;
+}
